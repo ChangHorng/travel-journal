@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 550px;
     font-family: 'Inter';
+    color: #2B283A;
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -10,6 +17,7 @@ nav {
     align-items: center;
     justify-content: center;
     background: #F55A5A;
+    margin-bottom: 35px;
 }
 
 .nav-logo {
@@ -26,4 +34,97 @@ nav {
     line-height: 18px;
     letter-spacing: -0.075em;
     color: #FFFFFF;   
+}
+
+.cards-row {
+    display: flex;
+    width: 470px;
+    height: 168px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.cards-image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 19px;
+}
+
+.cards-text-column {
+    width: 345px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-places {
+    height: 13px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.cards-location-logo {
+    width: 7px;
+    height: 9.55px;
+    margin-right: 4px;
+}
+
+.cards-location {
+    width: 40px;
+    height: 10px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-right: 12px;
+}
+
+.cards-location-url {
+    width: 106px;
+    height: 13px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+
+a {
+    color: #918E9B;
+}
+
+.cards-title {
+    width: 326px;
+    height: 33px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 14px; 
+}
+
+.cards-date {
+    width: 319px;
+    height: 11px;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.cards-details {
+    width: 326px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 478px;
+    border: 1px solid #F5F5F5;
+    margin: auto;
 }

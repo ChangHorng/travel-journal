@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Cards(props) {
     return (
-        <div className="cards">
+        <div>
             <div className="cards-row">
                 <img src={`/images/${props.card.imageUrl}`} className="cards-image" />
                 <div className="cards-text-column">

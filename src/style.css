@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+nav {
+    width: 550px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F55A5A;
+}
+
+.nav-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
+
+.nav-title {
+    width: 109px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;   
+}
